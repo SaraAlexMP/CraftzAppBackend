@@ -16,8 +16,8 @@ const {
 } = require('../controllers/productosController'); // Importamos los controladores
 
 // Rutas protegidas
-router.get('/', authMiddleware, listarProductos);//obtener
-router.post('/', authMiddleware, crearProducto);//crear endpoins
+router.get('/', authMiddleware, listarProductos);
+router.post('/', authMiddleware, crearProducto);
 router.patch('/actualizar', authMiddleware, actualizarProductos);
 router.post('/:id/variantes', authMiddleware, agregarVariantes);
 router.post('/:id/variante', authMiddleware, agregarVariante);
