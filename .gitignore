@@ -1,2 +1,8 @@
-node_modules/
-.env
+craftzapp/node_modules
+./craftzapp/node_modules
+/craftzapp/node_modules/
+craftzapp/node_modules/
+./craftzapp/node_modules/
+/craftzapp/node_modules
+backend/node_modules/
+backend/.env
